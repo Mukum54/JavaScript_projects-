@@ -1,0 +1,105 @@
+/* Cyber Web Theme: Orange (#ff6600), Black (#111), White (#fff) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.app-container {
+  width: 400px;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(255, 102, 0, 0.5);
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+header .logo {
+  width: 40px;
+}
+
+header h1 {
+  color: #ff6600;
+  font-size: 1.5rem;
+}
+
+.picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+#colorPicker {
+  width: 100px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.preview {
+  width: 100%;
+  height: 80px;
+  border-radius: 5px;
+  border: 2px solid #ff6600;
+}
+
+.color-values p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.color-values span {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.copy-btn {
+  background: #ff6600;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: #111;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.copy-btn:hover {
+  background: #ff8533;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+footer a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

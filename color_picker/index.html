@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Picker Tool - Cyber Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <img src="cyber-web-logo.png" alt="Cyber Web Logo" class="logo">
+      <h1>Cyber Web Color Picker</h1>
+    </header>
+
+    <div class="picker-container">click here
+      <label for="colorPicker">Choose a color:</label>
+      <input type="color" id="colorPicker" value="#ff6600">
+      <div class="preview" id="colorPreview"></div>
+
+      <div class="color-values">
+        <p>HEX: <span id="hexValue">#ff6600</span> <button class="copy-btn" data-target="hexValue">Copy</button></p>
+        <p>RGB: <span id="rgbValue">rgb(255, 102, 0)</span> <button class="copy-btn" data-target="rgbValue">Copy</button></p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Cyber Web | <a href="https://cyber-web.kitasarl.com" target="_blank">cyber-web.kitasarl.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
