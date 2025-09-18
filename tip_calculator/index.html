@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip Calculator - Cyber Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <img src="cyber-web-logo.png" alt="Cyber Web Logo" class="logo">
+      <h1>Cyber Web Tip Calculator</h1>
+    </header>
+
+    <div class="calculator">
+      <label for="billAmount">Bill Amount (FCFA):</label>
+      <input type="number" id="billAmount" placeholder="Enter bill amount">
+
+      <label for="tipPercent">Tip Percentage (%):</label>
+      <input type="number" id="tipPercent" placeholder="Enter tip %">
+
+      <label for="numPeople">Number of People:</label>
+      <input type="number" id="numPeople" placeholder="Enter people count" value="1" min="1">
+
+      <button id="calculateBtn">Calculate</button>
+
+      <div class="results">
+        <p>💰 Tip Amount: <span id="tipAmount">0</span> FCFA</p>
+        <p>📊 Total Amount: <span id="totalAmount">0</span> FCFA</p>
+        <p>👥 Each Person Pays: <span id="eachPerson">0</span> FCFA</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Cyber Web | <a href="https://cyber-web.kitasarl.com" target="_blank">cyber-web.kitasarl.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
