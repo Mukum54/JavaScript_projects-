@@ -62,7 +62,7 @@ Feel free to submit issues and enhancement requests!
 
 ## 📞 Contact
 
-Your Name - cyberweb@kitasarl.com - cyber-web.kitasarl.com
+CYBER WEB - cyberweb@kitasarl.com - cyber-web.kitasarl.com
 
 ## 📄 License
 
