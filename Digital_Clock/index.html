@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital CLock </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app"> 
+            <h1 class="title">Digital Clock </h1>
+        
+            <section class="clock-card" arial-live="polite">
+            <div class="time" id="time">
+                <span id="hours">00</span>
+                <span class="sep">:</span>
+                <span id="minutes">00</span>
+                <span class="sep">:</span>
+                <span id="seconds">00</span>
+                <span id="ampm" class="ampm"></span>
+            </div>
+            <div class="date" id="date"> Loading date...</div>
+
+            <div class="controls">
+                <button id="toggle-format" type="button" aria-pressed="false">Switch to 24h</button>
+                 <button id="toggle-seconds" type="button" aria-pressed="true">Hide Seconds</button>
+            </div>
+
+            </section>
+        <footer class="footer"> Made By CYBER WEB <span class="note">Innovative Digital Technology</span></footer>
+    </main>
+<script src="script.js" defer></script>
+</body>
+</html>
